@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/countdown", "dest": "/01-countdown-timer" }
+  ],
+  "builds": [
+    { "src": "01-countdown-timer/package.json", "use": "@vercel/static-build" }
+  ]
+}
